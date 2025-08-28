@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		156EF611262E2D6900630DA8 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156EF610262E2D6900630DA8 /* WebView.swift */; };
+		15969FB525C5E2360031632B /* QuickPhraseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15969FB425C5E2360031632B /* QuickPhraseApp.swift */; };
+		15969FB725C5E2360031632B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15969FB625C5E2360031632B /* ContentView.swift */; };
+		15969FB925C5E2370031632B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15969FB825C5E2370031632B /* Assets.xcassets */; };
+		15969FBC25C5E2370031632B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15969FBB25C5E2370031632B /* Preview Assets.xcassets */; };
+		15969FC125C5E2370031632B /* QuickPhrase WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 15969FC025C5E2370031632B /* QuickPhrase WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		15969FC625C5E2380031632B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15969FC525C5E2380031632B /* Assets.xcassets */; };
+		15969FCD25C5E2380031632B /* QuickPhrase WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 15969FCC25C5E2380031632B /* QuickPhrase WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		15969FD225C5E2380031632B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15969FD125C5E2380031632B /* ContentView.swift */; };
+		15969FD425C5E2380031632B /* QuickPhraseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15969FD325C5E2380031632B /* QuickPhraseApp.swift */; };
+		15969FD625C5E2380031632B /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15969FD525C5E2380031632B /* ComplicationController.swift */; };
+		15969FD825C5E2390031632B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15969FD725C5E2390031632B /* Assets.xcassets */; };
+		15969FDB25C5E2390031632B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15969FDA25C5E2390031632B /* Preview Assets.xcassets */; };
+		15969FEE25C5E3160031632B /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15969FED25C5E3160031632B /* AlertView.swift */; };
+		15969FF325C5E31E0031632B /* ScrollType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15969FF225C5E31E0031632B /* ScrollType.swift */; };
+		15969FF825C5E3260031632B /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15969FF725C5E3260031632B /* DetailView.swift */; };
+		15969FFD25C5E3530031632B /* NumberKeyPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15969FFC25C5E3530031632B /* NumberKeyPad.swift */; };
+		1596A00525C5E35B0031632B /* EmojiKeyPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1596A00425C5E35B0031632B /* EmojiKeyPad.swift */; };
+		15AB3D39262B877F0093C557 /* IAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AB3D38262B877F0093C557 /* IAPManager.swift */; };
+		15AB3D41262B87A90093C557 /* DonateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AB3D40262B87A90093C557 /* DonateView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15969FC225C5E2370031632B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15969FA925C5E2360031632B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15969FBF25C5E2370031632B;
+			remoteInfo = "QuickPhrase WatchKit App";
+		};
+		15969FCE25C5E2380031632B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15969FA925C5E2360031632B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15969FCB25C5E2380031632B;
+			remoteInfo = "QuickPhrase WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		15969FE225C5E2390031632B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				15969FCD25C5E2380031632B /* QuickPhrase WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15969FE625C5E2390031632B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				15969FC125C5E2370031632B /* QuickPhrase WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		156EF610262E2D6900630DA8 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		15969FB125C5E2360031632B /* QuickPhrase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickPhrase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15969FB425C5E2360031632B /* QuickPhraseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickPhraseApp.swift; sourceTree = "<group>"; };
+		15969FB625C5E2360031632B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		15969FB825C5E2370031632B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15969FBB25C5E2370031632B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		15969FBD25C5E2370031632B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15969FC025C5E2370031632B /* QuickPhrase WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QuickPhrase WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15969FC525C5E2380031632B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15969FC725C5E2380031632B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15969FCC25C5E2380031632B /* QuickPhrase WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "QuickPhrase WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15969FD125C5E2380031632B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		15969FD325C5E2380031632B /* QuickPhraseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickPhraseApp.swift; sourceTree = "<group>"; };
+		15969FD525C5E2380031632B /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		15969FD725C5E2390031632B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15969FDA25C5E2390031632B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		15969FDC25C5E2390031632B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15969FED25C5E3160031632B /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		15969FF225C5E31E0031632B /* ScrollType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollType.swift; sourceTree = "<group>"; };
+		15969FF725C5E3260031632B /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		15969FFC25C5E3530031632B /* NumberKeyPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberKeyPad.swift; sourceTree = "<group>"; };
+		1596A00425C5E35B0031632B /* EmojiKeyPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiKeyPad.swift; sourceTree = "<group>"; };
+		15AB3D37262B86FC0093C557 /* Configuration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration.storekit; sourceTree = "<group>"; };
+		15AB3D38262B877F0093C557 /* IAPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPManager.swift; sourceTree = "<group>"; };
+		15AB3D40262B87A90093C557 /* DonateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonateView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15969FAE25C5E2360031632B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15969FC925C5E2380031632B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15969FA825C5E2360031632B = {
+			isa = PBXGroup;
+			children = (
+				15969FB325C5E2360031632B /* QuickPhrase */,
+				15969FC425C5E2370031632B /* QuickPhrase WatchKit App */,
+				15969FD025C5E2380031632B /* QuickPhrase WatchKit Extension */,
+				15969FB225C5E2360031632B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15969FB225C5E2360031632B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15969FB125C5E2360031632B /* QuickPhrase.app */,
+				15969FC025C5E2370031632B /* QuickPhrase WatchKit App.app */,
+				15969FCC25C5E2380031632B /* QuickPhrase WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15969FB325C5E2360031632B /* QuickPhrase */ = {
+			isa = PBXGroup;
+			children = (
+				15969FB425C5E2360031632B /* QuickPhraseApp.swift */,
+				15969FB625C5E2360031632B /* ContentView.swift */,
+				15AB3D37262B86FC0093C557 /* Configuration.storekit */,
+				15AB3D38262B877F0093C557 /* IAPManager.swift */,
+				15AB3D40262B87A90093C557 /* DonateView.swift */,
+				156EF610262E2D6900630DA8 /* WebView.swift */,
+				15969FB825C5E2370031632B /* Assets.xcassets */,
+				15969FBD25C5E2370031632B /* Info.plist */,
+				15969FBA25C5E2370031632B /* Preview Content */,
+			);
+			path = QuickPhrase;
+			sourceTree = "<group>";
+		};
+		15969FBA25C5E2370031632B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				15969FBB25C5E2370031632B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		15969FC425C5E2370031632B /* QuickPhrase WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				15969FC525C5E2380031632B /* Assets.xcassets */,
+				15969FC725C5E2380031632B /* Info.plist */,
+			);
+			path = "QuickPhrase WatchKit App";
+			sourceTree = "<group>";
+		};
+		15969FD025C5E2380031632B /* QuickPhrase WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				15969FD125C5E2380031632B /* ContentView.swift */,
+				15969FF725C5E3260031632B /* DetailView.swift */,
+				15969FED25C5E3160031632B /* AlertView.swift */,
+				15969FF225C5E31E0031632B /* ScrollType.swift */,
+				15969FFC25C5E3530031632B /* NumberKeyPad.swift */,
+				1596A00425C5E35B0031632B /* EmojiKeyPad.swift */,
+				15969FD325C5E2380031632B /* QuickPhraseApp.swift */,
+				15969FD525C5E2380031632B /* ComplicationController.swift */,
+				15969FD725C5E2390031632B /* Assets.xcassets */,
+				15969FDC25C5E2390031632B /* Info.plist */,
+				15969FD925C5E2390031632B /* Preview Content */,
+			);
+			path = "QuickPhrase WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		15969FD925C5E2390031632B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				15969FDA25C5E2390031632B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15969FB025C5E2360031632B /* QuickPhrase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15969FE725C5E2390031632B /* Build configuration list for PBXNativeTarget "QuickPhrase" */;
+			buildPhases = (
+				15969FAD25C5E2360031632B /* Sources */,
+				15969FAE25C5E2360031632B /* Frameworks */,
+				15969FAF25C5E2360031632B /* Resources */,
+				15969FE625C5E2390031632B /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15969FC325C5E2370031632B /* PBXTargetDependency */,
+			);
+			name = QuickPhrase;
+			productName = QuickPhrase;
+			productReference = 15969FB125C5E2360031632B /* QuickPhrase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15969FBF25C5E2370031632B /* QuickPhrase WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15969FE325C5E2390031632B /* Build configuration list for PBXNativeTarget "QuickPhrase WatchKit App" */;
+			buildPhases = (
+				15969FBE25C5E2370031632B /* Resources */,
+				15969FE225C5E2390031632B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15969FCF25C5E2380031632B /* PBXTargetDependency */,
+			);
+			name = "QuickPhrase WatchKit App";
+			productName = "QuickPhrase WatchKit App";
+			productReference = 15969FC025C5E2370031632B /* QuickPhrase WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		15969FCB25C5E2380031632B /* QuickPhrase WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15969FDF25C5E2390031632B /* Build configuration list for PBXNativeTarget "QuickPhrase WatchKit Extension" */;
+			buildPhases = (
+				15969FC825C5E2380031632B /* Sources */,
+				15969FC925C5E2380031632B /* Frameworks */,
+				15969FCA25C5E2380031632B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QuickPhrase WatchKit Extension";
+			productName = "QuickPhrase WatchKit Extension";
+			productReference = 15969FCC25C5E2380031632B /* QuickPhrase WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15969FA925C5E2360031632B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					15969FB025C5E2360031632B = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					15969FBF25C5E2370031632B = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					15969FCB25C5E2380031632B = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 15969FAC25C5E2360031632B /* Build configuration list for PBXProject "QuickPhrase" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15969FA825C5E2360031632B;
+			productRefGroup = 15969FB225C5E2360031632B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15969FB025C5E2360031632B /* QuickPhrase */,
+				15969FBF25C5E2370031632B /* QuickPhrase WatchKit App */,
+				15969FCB25C5E2380031632B /* QuickPhrase WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15969FAF25C5E2360031632B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15969FBC25C5E2370031632B /* Preview Assets.xcassets in Resources */,
+				15969FB925C5E2370031632B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15969FBE25C5E2370031632B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15969FC625C5E2380031632B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15969FCA25C5E2380031632B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15969FDB25C5E2390031632B /* Preview Assets.xcassets in Resources */,
+				15969FD825C5E2390031632B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15969FAD25C5E2360031632B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15AB3D39262B877F0093C557 /* IAPManager.swift in Sources */,
+				156EF611262E2D6900630DA8 /* WebView.swift in Sources */,
+				15AB3D41262B87A90093C557 /* DonateView.swift in Sources */,
+				15969FB725C5E2360031632B /* ContentView.swift in Sources */,
+				15969FB525C5E2360031632B /* QuickPhraseApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15969FC825C5E2380031632B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15969FD425C5E2380031632B /* QuickPhraseApp.swift in Sources */,
+				15969FF825C5E3260031632B /* DetailView.swift in Sources */,
+				15969FFD25C5E3530031632B /* NumberKeyPad.swift in Sources */,
+				15969FF325C5E31E0031632B /* ScrollType.swift in Sources */,
+				15969FEE25C5E3160031632B /* AlertView.swift in Sources */,
+				15969FD225C5E2380031632B /* ContentView.swift in Sources */,
+				1596A00525C5E35B0031632B /* EmojiKeyPad.swift in Sources */,
+				15969FD625C5E2380031632B /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15969FC325C5E2370031632B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15969FBF25C5E2370031632B /* QuickPhrase WatchKit App */;
+			targetProxy = 15969FC225C5E2370031632B /* PBXContainerItemProxy */;
+		};
+		15969FCF25C5E2380031632B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15969FCB25C5E2380031632B /* QuickPhrase WatchKit Extension */;
+			targetProxy = 15969FCE25C5E2380031632B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		15969FDD25C5E2390031632B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15969FDE25C5E2390031632B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		15969FE025C5E2390031632B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QuickPhrase WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = MFC92XDN7D;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "QuickPhrase WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = Samantha.QuickPhrase.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Debug;
+		};
+		15969FE125C5E2390031632B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QuickPhrase WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = MFC92XDN7D;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "QuickPhrase WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = Samantha.QuickPhrase.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Release;
+		};
+		15969FE425C5E2390031632B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MFC92XDN7D;
+				IBSC_MODULE = QuickPhrase_WatchKit_Extension;
+				INFOPLIST_FILE = "QuickPhrase WatchKit App/Info.plist";
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = Samantha.QuickPhrase.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Debug;
+		};
+		15969FE525C5E2390031632B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MFC92XDN7D;
+				IBSC_MODULE = QuickPhrase_WatchKit_Extension;
+				INFOPLIST_FILE = "QuickPhrase WatchKit App/Info.plist";
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = Samantha.QuickPhrase.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Release;
+		};
+		15969FE825C5E2390031632B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QuickPhrase/Preview Content\"";
+				DEVELOPMENT_TEAM = MFC92XDN7D;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = QuickPhrase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = Samantha.QuickPhrase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15969FE925C5E2390031632B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QuickPhrase/Preview Content\"";
+				DEVELOPMENT_TEAM = MFC92XDN7D;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = QuickPhrase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = Samantha.QuickPhrase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15969FAC25C5E2360031632B /* Build configuration list for PBXProject "QuickPhrase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15969FDD25C5E2390031632B /* Debug */,
+				15969FDE25C5E2390031632B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15969FDF25C5E2390031632B /* Build configuration list for PBXNativeTarget "QuickPhrase WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15969FE025C5E2390031632B /* Debug */,
+				15969FE125C5E2390031632B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15969FE325C5E2390031632B /* Build configuration list for PBXNativeTarget "QuickPhrase WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15969FE425C5E2390031632B /* Debug */,
+				15969FE525C5E2390031632B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15969FE725C5E2390031632B /* Build configuration list for PBXNativeTarget "QuickPhrase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15969FE825C5E2390031632B /* Debug */,
+				15969FE925C5E2390031632B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15969FA925C5E2360031632B /* Project object */;
+}

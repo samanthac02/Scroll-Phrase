@@ -1,0 +1,29 @@
+{
+  "products" : [
+    {
+      "displayPrice" : "1.99",
+      "familyShareable" : false,
+      "internalID" : "87FC583B",
+      "localizations" : [
+        {
+          "description" : "Thank you! I really appreciate your support!",
+          "displayName" : "Cookie",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "scrollPhrase.cookie",
+      "referenceName" : "cookie",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 1,
+    "minor" : 0
+  }
+}
